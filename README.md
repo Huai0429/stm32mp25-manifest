@@ -16,6 +16,10 @@ This project is based on:
 This repository provides the repo manifest for OpenSTLinux.
 
 ## Quick Start
+``` repo init -u git@github.com:Huai0429/stm32mp25-manifest.git -b scarthgap```
+
+```repo sync```
+
 ``` DISTRO=openstlinux-weston MACHINE=stm32mp25-disco source layers/meta-st/scripts/envsetup.sh ```
 
 ``` bitbake st-image-waton ```
