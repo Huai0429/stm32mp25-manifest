@@ -3,6 +3,7 @@
   <remote name="github" fetch="https://github.com"/>
   <remote name="oe" fetch="http://git.openembedded.org"/>
   <remote name="OpenSTLinux" fetch="https://github.com/STMicroelectronics"/>
+  <remote name="Huai0429-github" fetch="git@github.com:Huai0429" />
   
   <default remote="OpenSTLinux"/>
   
@@ -13,4 +14,5 @@
   <project name="meta-st-stm32mp-addons" path="layers/meta-st/meta-st-stm32mp-addons" revision="3597fb343419edd78c3d9b1505a9f3eb0469efbd"/>
   <project name="meta-st-scripts" path="layers/meta-st/scripts" revision="8826802b453ef2ead61b07c7bc5ab525a405df04"/>
   <project name="openembedded-core" path="layers/openembedded-core" remote="oe" revision="6988157ad983978ffd6b12bcefedd4deaffdbbd1"/>
+  <project name="meta-breakout.git" path="layers/meta-breakout" remote="Huai0429-github" revision="main"/>
 </manifest>
