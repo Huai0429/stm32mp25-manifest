@@ -15,4 +15,5 @@
   <project name="meta-st-scripts" path="layers/meta-st/scripts" revision="8826802b453ef2ead61b07c7bc5ab525a405df04"/>
   <project name="openembedded-core" path="layers/openembedded-core" remote="oe" revision="6988157ad983978ffd6b12bcefedd4deaffdbbd1"/>
   <project name="meta-sdbus-lite.git" path="layers/meta-sdbus-lite" remote="Huai0429-github" revision="main"/>
+  <project name="meta-breakout.git" path="layers/meta-breakout" remote="Huai0429-github" revision="main"/>
 </manifest>
