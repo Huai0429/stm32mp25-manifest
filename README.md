@@ -20,12 +20,22 @@ This repository provides the repo manifest for OpenSTLinux.
 
 ```repo sync```
 
-``` DISTRO=openstlinux-weston MACHINE=stm32mp25-disco source layers/meta-st/scripts/envsetup.sh ```
+``` DISTRO=openstlinux-weston MACHINE=stm32mp2 source layers/meta-st/scripts/envsetup.sh ```
+
+``` bitbake-layers add-layer ../layers/meta-sdbus-lite```
+
 
 ``` bitbake st-image-weston ```
 
 ## Custom Layer
-meta-breakout:
+### meta-sdbus-lite
+https://github.com/Huai0429/meta-sdbus-lite
+
+The **sdbus-lite** library based on sdbus to help you simplify the dbus code complexity.\
+A streamlined C library that wraps libsystemd sd-bus to simplify D-Bus IPC. \
+It provides easy-to-use APIs for initialization, method invocation, signal handling, and property management, enabling unified and reusable IPC across multiple applications.
+
+### meta-breakout
 https://github.com/Huai0429/meta-breakout
 
 Description:
@@ -33,6 +43,7 @@ Description:
 - Device Tree
 - Drivers
 - Applications
+
 
 ## Documentation
 - STM32 MPU Wiki:
