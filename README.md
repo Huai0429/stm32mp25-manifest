@@ -22,7 +22,7 @@ This repository provides the repo manifest for OpenSTLinux.
 
 ``` DISTRO=openstlinux-weston MACHINE=stm32mp25-disco source layers/meta-st/scripts/envsetup.sh ```
 
-``` bitbake st-image-waton ```
+``` bitbake st-image-weston ```
 
 ## Custom Layer
 meta-breakout:
